@@ -1,7 +1,7 @@
 #!/bin/bash
 
 changedBranch=$(git symbolic-ref HEAD | sed -e 's,.*/\(.*\),\1,')
-blockedUsers=(Dovzhik junior2)
+blockedUsers=(Dovzhik DovzhiAn)
 
 if [[ ${blockedUsers[*]} =~ $USER ]]; then
     if [ $changedBranch == "master" ]; then
