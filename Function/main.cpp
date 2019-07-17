@@ -11,6 +11,7 @@ struct Image {
 	double rating;
 };
 //comment
+// anotehr comment
 struct Params {
 	double a;
 	double b;
