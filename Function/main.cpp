@@ -10,7 +10,7 @@ struct Image {
 	double freshness;
 	double rating;
 };
-
+//comment
 struct Params {
 	double a;
 	double b;
